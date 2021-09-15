@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/sample_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_below="@+id/sample_image"
+            android:id="@+id/vechile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dp_logo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/dplogo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Delhi Police Vechile-Info"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/dp_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/subheading"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#fff"
+                android:layout_toRightOf="@+id/dp_logo"
+                android:layout_below="@+id/heading"
+                android:textSize="16sp"
+                android:text="Vechile Number Plate Identification on your Fingertips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <SearchView
+                android:inputType="textCapCharacters"
+                android:id="@+id/search_view"
+                android:queryHint="Search"
+                android:iconifiedByDefault="false"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/btn_shape_round"
+                android:layout_below="@+id/subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="To search Missing Vechile\n\nType Vechile Number in Search Box or Click on Lens Icon and Scan the Vechile Number on Number Plate"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/floating_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonColorNormal="@color/colorAccent"
+            app:fab_labelStyle="@style/customFab"
+            >
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_size="mini"
+                android:id="@+id/btn_scan_vehicle"
+                app:fab_title="Scan Vehicle"
+                app:fab_icon="@drawable/ic_filter_center_focus_white_24dp"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_size="mini"
+                android:id="@+id/btn_scan_barcode"
+                app:fab_title="Scan Barcode"
+                app:fab_icon="@drawable/ic_baseline_flip_24"/>
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

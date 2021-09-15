@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewReport"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="5dp"
+        app:cardCornerRadius="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/heading_top"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="15dp"
+                android:textSize="22sp"
+                android:text="Product Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/product_id"
+                android:layout_below="@+id/heading_top"
+                android:layout_centerHorizontal="true"
+                android:text="Product Id:-"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/report_unread"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/btn_shpe_green"
+                android:layout_marginBottom="10dp"
+                android:text="This Product is Ready To Checkout"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/product_id"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#49db14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/report_read"
+                android:gravity="center"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_shpe_red"
+                android:layout_marginBottom="10dp"
+                android:text="This Product is Already Checkedout"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/product_id"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ff0000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/product_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

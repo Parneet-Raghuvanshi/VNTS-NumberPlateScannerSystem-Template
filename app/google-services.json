@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "791899467267",
+    "firebase_url": "https://vnts-fca0e.firebaseio.com",
+    "project_id": "vnts-fca0e",
+    "storage_bucket": "vnts-fca0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791899467267:android:dff3fb3be8d131b16a6836",
+        "android_client_info": {
+          "package_name": "com.example.vnts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791899467267-0rmkdqn37pi8tbq2jpich8li4sq0gedd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vnts",
+            "certificate_hash": "494cd470abcbcadab0eae0a8c57ada3bebec5495"
+          }
+        },
+        {
+          "client_id": "791899467267-s2bcegrdjf1m7k3n1kc9r79seh8qossk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1voLZlbVjuN25t0kQKl8k-2TVwKkzrOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791899467267-s2bcegrdjf1m7k3n1kc9r79seh8qossk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
