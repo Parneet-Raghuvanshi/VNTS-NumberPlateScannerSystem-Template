@@ -6,10 +6,6 @@ VNTS - Vehicle Numberplate Tracking System, on the go app to quickly scan any ve
 
 It uses Google `TextRecognizer` OCR class to scan number plates and generate the actual number plate code and then query it in the database and display all fetched vehicle records.
 
-Here are some GIFs to get a visual of the working of the application.
-
-![]() ![]() ![]()
-
 # Functions/Tools Used
 
 Here are some of the coded functions and tools which are used in this application:
