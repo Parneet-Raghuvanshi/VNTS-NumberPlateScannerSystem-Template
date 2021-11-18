@@ -26,7 +26,7 @@ Feel free to create issues and pull requests 😊 or [Contact Me](mailto:parneet
 
 <p align="center">
   <img src="https://github.com/Parneet-Raghuvanshi/VNTS-NumberPlateScannerSystem-Template/blob/master/readmeresources/android-studio.png?raw=true" title="Android Studio" height="40"/>
-  <img src="https://github.com/Parneet-Raghuvanshi/VNTS-NumberPlateScannerSystem-Template/blob/master/readmeresources/Git-Icon.png?raw=true" title="Git Hub" height="40"/>
+  <img src="https://github.com/Parneet-Raghuvanshi/VNTS-NumberPlateScannerSystem-Template/blob/master/readmeresources/Git-Icon.png?raw=true" title="Git" height="40"/>
   <img src="https://github.com/Parneet-Raghuvanshi/VNTS-NumberPlateScannerSystem-Template/blob/master/readmeresources/java.png?raw=true" title="Java" height="40"/>
   <img src="https://github.com/Parneet-Raghuvanshi/VNTS-NumberPlateScannerSystem-Template/blob/master/readmeresources/xml.png?raw=true" title="XML" height="40"/>
   <img src="https://github.com/Parneet-Raghuvanshi/VNTS-NumberPlateScannerSystem-Template/blob/master/readmeresources/lf_Symbol.png?raw=true" title="Lottie Files" height="40"/>
